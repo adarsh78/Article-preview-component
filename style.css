@@ -90,7 +90,7 @@ img{
     margin-left: -1.5rem;
 }
 
-button{
+.button{
     background: url(images/icon-share.svg) no-repeat;
     background-position: right 8px bottom 10px;
     background-color:hsl(210, 46%, 95%);
@@ -101,7 +101,7 @@ button{
     color: hsl(214, 17%, 51%) ;
 }
 
-button:hover{
+.button:hover{
     cursor: pointer;
 }
 
@@ -217,7 +217,7 @@ button:hover{
         gap: 0;
     }
 
-    button:active{
+    .button:active{
         background-color: hsl(217, 19%, 35%);
 
     }
